@@ -13,7 +13,7 @@ void fastio(){
 unordered_map <ll, bool> map;
 
 void gen (ll i = 1) {
-    if (i > 10e6) {
+    if (i > 10e5) {
         return;
     }
 
