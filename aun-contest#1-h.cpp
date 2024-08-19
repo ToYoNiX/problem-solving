@@ -21,6 +21,7 @@ int main () {
     eq = (n * k) / a;
 
     if (eq == floor(eq)) {
+        
         if (eq >= -2147483648 && eq <= 2147483647) {
             cout << "int\n";
         } else {
